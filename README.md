@@ -1,6 +1,6 @@
 # Modul-Pelatihan-Linux-2020
 ## Persiapan
-Peserta sudah harus menginstall VirtualBox yang dapat di-download di [sini](https://drive.google.com/drive/folders/1OdAF4zyIISK8B5n5WqVY58HkLfQ5aNqn).
+Peserta sudah harus menginstall VirtualBox yang dapat di-download di [sini](https://drive.google.com/drive/folders/1VUm5aJNGbuh2mx0EJ6Dls6bf7sNS_9R5?usp=sharing).
  
 ## Materi
 1. [Pengenalan Linux](Pengenalan/README.md)
