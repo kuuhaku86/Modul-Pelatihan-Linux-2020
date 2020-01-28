@@ -1,4 +1,4 @@
-# Modul-Pelatihan-Linux-2019
+# Modul-Pelatihan-Linux-2020
 ## Persiapan
 Peserta sudah harus menginstall VirtualBox yang dapat di-download di [sini](https://drive.google.com/drive/folders/1OdAF4zyIISK8B5n5WqVY58HkLfQ5aNqn).
  
