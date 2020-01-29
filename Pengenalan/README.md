@@ -1,8 +1,10 @@
 # Pengenalan
 Sub-materi
-1. [Pengertian Linux](#1-pengertian-linux)
-2. [Distro Linux](#2-distro-linux)
-3. [Perbedaan Linux, MAC, dan Windows](#3-perbedaan-linux-mac-dan-windows)
+- [Pengenalan](#pengenalan)
+    - [1. Pengertian Linux](#1-pengertian-linux)
+    - [2. Distro Linux](#2-distro-linux)
+    - [3. Perbedaan Linux, MAC, dan Windows](#3-perbedaan-linux-mac-dan-windows)
+        - [Referensi :](#referensi)
 
 ### 1. Pengertian Linux
 **Linux** adalah nama yang diberikan kepada sistem operasi bertipe Unix. Linux merupakan salah satu contoh hasil pengembangan perangkat lunak bebas dan sumber terbuka utama. Seperti perangkat lunak bebas dan sumber terbuka lainnya pada umumnya, kode sumber Linux dapat dimodifikasi, digunakan dan didistribusikan kembali secara bebas oleh siapa saja.
@@ -26,25 +28,25 @@ Fedora ini merupakan salah satu Distro Linux yang dkembangkan karena disponsori 
 ![openSUSE](img/openSUSE-150x150.png  "openSUSE")  
 openSUSE ini juga termasuk salah satu sistem operasi yang didirikan diatas kernel Linux atau biasa disebut Distro Linux. openSUSE Project selaku pihak pengembang menciptakan sistem operasi ini dengan tujuan agar penggunaan Linux dapat lebih maju dengan kinerjanya yang stabil dan ramah pengguna. openSUSE ini lebih sering digunakan sebagai sistem operasi desktop/ server.
 
-**5. Mandrake (Mandriva)**  
-![Mandrake](img/mandriva-150x150.jpg  "Mandrake")  
-Sistem operasi Mandrake atau yang juga bisa disebut Mandriva Linux merupakan salah satu jenis Distro Linux yang kali ini dikembangkan oleh suatu perusahaan bernama Mandriva. Sama halnya dengan Fedora, sistem operasi Mandrake ini juga menggunakan sistem _RPM Package Manager_.
-
-**6. Debian**  
+**5. Debian**  
 ![Debian](img/2000px-Ardebian_logo.svg-150x150.png  "Debian")  
 Proses penamaan dari salah satu Distro Linux ini bisa dibilang cukup unik. Sang pencetus pertama kali yakni Ian Murdock memberi nama Debian karena merupakan kombinasi dari namanya dan mantan kekasihnya. Salah satu alasan mengapa Debian ini termasuk Distro Linux yang paling banyak digunakan adalah karena security-nya yang bagus .
 
-**7. Ubuntu**  
+**6. Ubuntu**  
 ![Ubuntu](img/ubuntu-150x150.png  "Ubuntu")  
 Ubuntu merupakan suatu sistem operasi yang berbasiskan pada Debian dan dikembangkan oleh suatu perusahaan dari Afrika Selatan yang bernama _Canonical ltd_. Asal penamaan dari Ubuntu ini juga berasal dari bahasa Afrika Selatan yang berarti kemanusiaan. Dengan sifatnya sebagai OS open source, Ubuntu sengaja diprioritaskan untuk kepentingan umum atau server.
 
-**8. Mint**  
+**7. Mint**  
 ![Mint](img/mint-150x150.png  "Mint")  
 Jika sebelumnya anda mengetahui bahwa Distro Linux yang bernama Ubuntu dibuat dengan berbasiskan pada Debian, maka kali ini ada Distro Linux yang berbasiskan pada Debian dan Ubuntu. Namanya adalah Mint atau yang biasa disebut Linux Mint.
 
-**9. Zorin**  
-![Zorin](img/zorin-150x150.jpg  "Zorin")  
-Zorin ini merupakan salah satu Distro Linux yang memiliki tampilan grafis sangat mirip dengan Windows, bahkan termasuk pada aplikasi – aplikasinya. Sejak awal tujuan pembuatan sistem operasi ini memang agar para pengguna yang terbiasa dengan Windows dapat menikmati fitur dari Linux tanpa harus mengalami kesulitan.
+**8. Kali**  
+![Kali](img/kali-150x150.png  "Kali")  
+Kali Linux adalah distro turunan Debian dan juga penerus BackTrack yang digunakan untuk melakukan penetrasi pada jaringan. Kali Linux memiliki ±300 tools yang ada di dalamnya dengan fungsi masing-masing . 
+
+**9. Elementary OS**  
+![Elementary](img/elementary-150x150.png  "Elementary")  
+Elementary OS berbasis Ubuntu adalah distro Linux yang paling indah dan dikenal karena kinerjanya yang tak tertandingi. OS open source untuk pengganti Windows dan macOS, Elementary OS ini meminjam beberapa elemen desain dari macOS. Distro ini juga tidak dibawakan banyak aplikasi default Ubuntu, karena Elementary OS bertujuan untuk memberikan pengalaman yang ringan kepada pengguna.
 
 ### 3. Perbedaan Linux, MAC, dan Windows
  
@@ -66,3 +68,5 @@ Perangkat Lunak yang Bisa Dipakai | Sangat minim software karena sedikit develop
 - https://www.nesabamedia.com/distro-linux/
 - https://id.wikipedia.org/wiki/Linux
 - https://id.wikipedia.org/wiki/Distribusi_Linux
+- https://www.centerklik.com/10-distro-os-linux-terbaik-yang-sesuai-dengan-kebutuhan-anda/
+- https://id.wikipedia.org/wiki/Kali_Linux
