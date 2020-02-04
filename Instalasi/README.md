@@ -1,13 +1,15 @@
 # Instalasi
 Sub-materi
-1. [Persiapan](#1-persiapan)
-2. [Teknik Instalasi](#2-teknik-instalasi)
-3. [Membuat Virtual Machine](#3-membuat-virtual-machine)
-4. [Instalasi Ubuntu](#4-instalasi-ubuntu-1604)
+- [Instalasi](#instalasi)
+    - [1. Persiapan](#1-persiapan)
+    - [2. Teknik Instalasi](#2-teknik-instalasi)
+    - [3. Membuat Virtual Machine](#3-membuat-virtual-machine)
+    - [4. Instalasi Ubuntu 18.04](#4-instalasi-ubuntu-1804)
+        - [Referensi](#referensi)
 
 ### 1. Persiapan
-- File ISO Ubuntu 16.04 LTS ([Download](http://releases.ubuntu.com/16.04/ubuntu-16.04.5-desktop-amd64.iso))
-- Installer VirtualBox ([Download](https://download.virtualbox.org/virtualbox/5.2.22/VirtualBox-5.2.22-126460-Win.exe))
+- File ISO Ubuntu 18.04 LTS ([Download](http://releases.ubuntu.com/18.04/ubuntu-18.04.5-desktop-amd64.iso))
+- - Installer VirtualBox ([Download](https://download.virtualbox.org/virtualbox/5.2.22/VirtualBox-5.2.22-126460-Win.exe))
 
 ### 2. Teknik Instalasi
 Jika hendak menggunakan lebih dari satu sistem operasi atau sering disebut OS(operating system) pada suatu komputer biasanya ada dua pilihan teknik instalasi, yaitu **dual-boot** atau **virtualisasi**.
@@ -31,58 +33,58 @@ Berikut ini perbandingan termasuk kelebihan dan kekurangan dari kedua teknik ins
 ### 3. Membuat Virtual Machine
 1. Install Oracle VM VirtualBox. Jika sudah ada, lanjut ke langkah 2.
 2. Buka aplikasi Oracle VM VirtualBox di Windows kamu.  
-![Tampilan awal Oracle VM VirtualBox](img/vb_home.png "Tampilan awal Oracle VM VirtualBox")
+![Tampilan awal Oracle VM VirtualBox](img/vb_home2.png "Tampilan awal Oracle VM VirtualBox")
 
-3. Klik **New** untuk membuat Virtual Machine baru. Isi **name** dengan nama 'Ubunru 16.04', **type** pilih Linux, dan pilih **version** sesuai sepesifikasi PC atau Laptop kamu. Kemudian klik **Next** untuk proses selanjutnya.  
-![Membuat Virtual Machine baru Oracle VM VirtualBox](img/vb_buat_vm_baru.png "Membuat Virtual Machine baru Oracle VM VirtualBox")
+3. Klik **New** untuk membuat Virtual Machine baru. Isi **name** dengan nama 'Ubuntu 18.04', **type** pilih Linux, dan pilih **version** sesuai sepesifikasi PC atau Laptop kamu. Kemudian klik **Next** untuk proses selanjutnya.  
+![Membuat Virtual Machine baru Oracle VM VirtualBox](img/vb_buat_vm_baru2.png "Membuat Virtual Machine baru Oracle VM VirtualBox")
 
 4. Selanjutnya kamu disuruh untuk menentukan besaran memori, namun VirtualBox otomatis merekomendasikan besarnya memori. Jika sudah sesuai klik **Next**.  
-![Set memori VM baru Oracle VM VirtualBox](img/vb_set_memori.png "Set memori VM baru Oracle VM VirtualBox")
+![Set memori VM baru Oracle VM VirtualBox](img/vb_set_memori2.png "Set memori VM baru Oracle VM VirtualBox")
 
 5. Selanjutnya kamu disuruh untuk menentukan ukuran harddisk, namun VirtualBox otomatis merekomendasikan ukuran harddisk. Jika sudah sesuai klik **Next**.  
-![Set ukuran harddisk VM baru Oracle VM VirtualBox](img/vb_set_disk.png "Set ukuran harddisk VM baru Oracle VM VirtualBox")
+![Set ukuran harddisk VM baru Oracle VM VirtualBox](img/vb_set_disk_typee.png "Set ukuran harddisk VM baru Oracle VM VirtualBox")
 
 6. Klik **Next** saja pada proses ini untuk menuju proses selanjutnya.  
-![Set tipe harddisk VM baru Oracle VM VirtualBox](img/vb_set_disk_type.png "Set tipe harddisk VM baru Oracle VM VirtualBox")
+![Set tipe harddisk VM baru Oracle VM VirtualBox](img/vb_set_disk_type22.png "Set tipe harddisk VM baru Oracle VM VirtualBox")
 
 7. Klik **Next** saja pada proses ini untuk menuju proses selanjutnya.  
-![Set tipe harddisk VM baru Oracle VM VirtualBox(2)](img/vb_set_disk_type2.png "Set tipe harddisk VM baru Oracle VM VirtualBox(2)")
+![Set tipe harddisk VM baru Oracle VM VirtualBox(2)](img/vb_set_disk_type3.png "Set tipe harddisk VM baru Oracle VM VirtualBox(2)")
 
 8. Menentukan ukuran harddisk(direkomendasikan minimal 10GB). Klik **Create**.  
-![Set ukuran harddisk VM baru Oracle VM VirtualBox(3)](img/vb_set_disk_size.png "Set ukuran harddisk VM baru Oracle VM VirtualBox(3)")
+![Set ukuran harddisk VM baru Oracle VM VirtualBox(3)](img/vb_set_disk_size2.png "Set ukuran harddisk VM baru Oracle VM VirtualBox(3)")
 
-9. Yee, virtual machine yang kamu buat sudah jadi! Namun, kamu masih harus menginstall Ubuntu 16.04 pada virtual machine yang telah kamu buat.
+9. Yee, virtual machine yang kamu buat sudah jadi! Namun, kamu masih harus menginstall Ubuntu 18.04 pada virtual machine yang telah kamu buat.
 
-### 4. Instalasi Ubuntu 16.04
-Setelah berhasil membuat virtual machine, selanjutnya kita menginstall Ubuntu 16.04 pada virtual machine yang telah dibuat.
+### 4. Instalasi Ubuntu 18.04
+Setelah berhasil membuat virtual machine, selanjutnya kita menginstall Ubuntu 18.04 pada virtual machine yang telah dibuat.
 1. Pilih virtual machine yang ingin di install, lalu klik **Setting** -> **Storage** -> **Controller: IDE** -> **Empty** -> **Choose Virtual Optical Disk File** untuk memilih file ISO Ubuntu yang akan di install. Kemudian klik **Start**(tanda panah hijau)  
-![Set file ISO Ubuntu VM baru Oracle VM VirtualBox](img/vb_set_iso.png "Set file ISO Ubuntu VM baru Oracle VM VirtualBox")  
-![Set file ISO Ubuntu VM baru Oracle VM VirtualBox(2)](img/vb_get_iso_file.png "Set file ISO Ubuntu VM baru Oracle VM VirtualBox(2)")  
-![Set file ISO Ubuntu VM baru Oracle VM VirtualBox(3)](img/vb_vm_jadi.png "Set file ISO Ubuntu VM baru Oracle VM VirtualBox(3)")
+![Set file ISO Ubuntu VM baru Oracle VM VirtualBox](img/vb_set_iso2.png "Set file ISO Ubuntu VM baru Oracle VM VirtualBox")  
+![Set file ISO Ubuntu VM baru Oracle VM VirtualBox(2)](img/vb_get_iso_file2.png "Set file ISO Ubuntu VM baru Oracle VM VirtualBox(2)")  
+![Set file ISO Ubuntu VM baru Oracle VM VirtualBox(3)](img/vb_vm_jadi2.png "Set file ISO Ubuntu VM baru Oracle VM VirtualBox(3)")
 
 2. Yuhuu!! File ISO Ubuntu sudah berjalan. Selanjutnya tinggal ikuti langkah instalasinya. Klik **Install Ubuntu**.  
-![Instalasi Ubuntu(1)](img/vb_install_ubuntu1.png "Instalasi Ubuntu(1)")
+![Instalasi Ubuntu(1)](img/vb_install_ubuntu12.png "Instalasi Ubuntu(1)")
 
 3. Tidak perlu mencentang apapun untuk menghemat waktu instalasi, kemudian klik **Continue**.  
-![Instalasi Ubuntu(2)](img/vb_install_ubuntu2.png "Instalasi Ubuntu(2)")
+![Instalasi Ubuntu(2)](img/vb_install_ubuntu22.png "Instalasi Ubuntu(2)")
 
 4. Pilih **Erase disk and install Ubuntu**, lalu klik **Install Now**.  
-![Instalasi Ubuntu(3)](img/vb_install_ubuntu3.png "Instalasi Ubuntu(3)")
+![Instalasi Ubuntu(3)](img/vb_install_ubuntu32.png "Instalasi Ubuntu(3)")
 
 5. Memilih zona waktu. Ketik **Jakarta**, lalu klik **Continue**.  
-![Instalasi Ubuntu(4)](img/vb_install_ubuntu4.png "Instalasi Ubuntu(4)")
+![Instalasi Ubuntu(4)](img/vb_install_ubuntu42.png "Instalasi Ubuntu(4)")
 
 6. Memilih bahasa yang digunakan untuk penyesuaian keyboard. Ikuti saja defaultnya, langsung klik **Continue**.  
-![Instalasi Ubuntu(5)](img/vb_install_ubuntu5.png "Instalasi Ubuntu(5)")
+![Instalasi Ubuntu(5)](img/vb_install_ubuntu122.png "Instalasi Ubuntu(5)")
 
 7. Mengatur nama, nama komputer, username, dan password. Biasanya ketika mengetikkan nama kita pada form **Your name**, form **Your computer's name** dan form **Pick a username** otomatis tergenerate sesuai nama yang kita ketikkan.  
-![Instalasi Ubuntu(6)](img/vb_install_ubuntu6.png "Instalasi Ubuntu(6)")
+![Instalasi Ubuntu(6)](img/vb_install_ubuntu62.png "Instalasi Ubuntu(6)")
 
 8. Tunggu hingga proses instalasi selesai.  
-![Instalasi Ubuntu(7)](img/vb_install_ubuntu7.png "Instalasi Ubuntu(7)")
+![Instalasi Ubuntu(7)](img/vb_install_ubuntu72.png "Instalasi Ubuntu(7)")
 
 9. Instalasi sudah selesai! Klik **Restart Now** untuk me-*restart* Ubuntu untuk menyudahi tahapan instalasi.  
-![Instalasi Ubuntu(8)](img/vb_install_ubuntu8.png "Instalasi Ubuntu(8)")
+![Instalasi Ubuntu(8)](img/vb_install_ubuntu82.png "Instalasi Ubuntu(8)")
 
 
 ##### Referensi
