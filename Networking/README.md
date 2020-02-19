@@ -82,3 +82,4 @@ $ sudo service networking restart
 - https://www.virtualbox.org/manual/ch06.html#networkingmodes
 - http://techgenix.com/nat-vs-bridged-network-a-simple-diagram-178/
 - https://www.virtualbox.org/manual/ch06.html#networkingmodes
+- https://study-ccna.com/telnet-ssh/
