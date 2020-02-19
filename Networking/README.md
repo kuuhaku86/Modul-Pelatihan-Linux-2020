@@ -6,7 +6,9 @@
 - [3. Setting IP Address Statis](#3-Setting-IP-Address-Statis)
   - [a. GUI](#a-GUI)
   - [b. CLI](#b-CLI)
-- [4. SSH dan Telnet](#4-SSH-Telnet)
+- [4. SSH dan Telnet](#4-SSH-dan-Telnet)
+  - [a. Telnet](#a-Telnet)
+  - [b. SSH](#b-SSH)
 
 ### 1. VirtualBox Networking Modes
 
@@ -86,7 +88,7 @@ $ sudo service networking restart
 
 
 
-### 3. SSH dan Telnet
+### 4. SSH dan Telnet
 ##### A. Telnet
 Telnet adalah protokol jaringan yang memungkinkan pengguna untuk berkomunikasi dengan perangkat jarak jauh. Ini adalah protokol terminal virtual yang sebagian besar digunakan oleh administrator jaringan untuk mengakses dan mengelola perangkat dari jarak jauh. Administrator dapat mengakses perangkat dengan melakukan telnetting ke alamat IP atau nama host dari perangkat jarak jauh.
 
